@@ -4,70 +4,152 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignmant_3</title>
+
     <!-- font-awesome link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- favicon sat_up -->
     <link rel="shortcut icon" href="./images/html.png" type="image/x-icon">
+
     <!-- font link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <!-- link with daisyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+
     <!-- Link with css -->
     <link rel="stylesheet" href="./style/style.css">
+
 </head>
 <body class="">
     <header>
         <!-- Nav Bar -->
-        <nav>
+        <nav class="flex flex-row justify-between items-center text-center mt-12 mx-32 ">
+            <div class="flex flex-row gap-3 items-center">
+                <img src="./images/arrow-up-right-01.png" alt="arrow" class="h-8 w-8">
+                <h2 class="text-3xl font-extrabold ">Rinterio</h2>
+            </div>
+            <div class="flex flex-row items-center gap-9  ">
+                <p class="font-extrabold text-base ">Home</p>
+                <p class="text-base">Services</p>
+                <p class="text-base">Portfolio</p>
+                <p class="text-base">Blogs</p>
+                <p class="text-base">Contact Us</p>
+            </div>
+            <div class="flex flex-row items-center gap-6   ">
+                <img src="./images/Frame 2.png" alt="icon" class="w-12 h-12">
+                <img src="./images/Frame 3.png" alt="icon" class="w-12 h-12">
+                <button class="text-xl font-extrabold flex flex-row items-center gap-1 px-5 py-3 bg-yellow-300 rounded-3xl ">Book Consult <img src="./images/arrow-up-black.png" alt="arrow"></button>
+            </div>
+        </nav>
+        <!-- Baner section -->
+        <div class="flex flex-col gap-6 mt-8 items-center ">
             <div>
-                <img src="./images/arrow-up-right-01.png" alt="arrow">
-                <h2>Rinterio</h2>
+                <img src="./images/banner.png" alt="House" class="   ">
+            </div>
+            <div class="flex flex-col items-center text-center gap-7" style="width: 1170px; height: 318px;">
+                <h2 class="text-6xl font-extrabold ">A barn house of this design has a striking appearance</h2>
+                <p class="font-medium text-base  ">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+                <button class="text-xl font-extrabold flex flex-row items-center gap-1 px-5 py-3  " style="background-color: rgba(171, 239, 95, 0.5);border-radius: 32px; ">View Details <img src="./images/arrow-up-right-01.png" alt="arrow"></button>
+            </div>
+        </div>
+    </header>
+<!-- We design thoughtful,liveable spaces section -->
+<section class="" style="background-color: rgb(236, 232, 232);">
+        <img src="./images/Vector.png" alt="arrow" style="margin-top: 18px; margin-left: 90px; margin-bottom: 20px; padding-top: 30px;">
+        <div class="flex flex-row justify-between mx-32 " >
+            <div class="flex flex-col gap-6">
+                <div>
+                    <button class="w-32 h-9 py-1 px-4 bg-white rounded-2xl text-base font-bold " >
+                        <i class="fa-solid fa-arrow-right"></i>About Us</button>
+                    <h3  class=" text-4xl font-extrabold text-center" style=" width:477px ; height:110px ; margin-top: 16px; margin-bottom: 24px; " >We design thoughtful,liveable spaces</h3>
+                    <p class="font-medium text-base  " >we have the bast engenear of the city they desine our hous pecfully</p>
+                </div>
+                <div class="flex flex-row gap-3 items-center bg-white rounded-2xl  
+                " style="width: 560;height: 136px; padding: 24px; ">
+                    <img src="./images/commercial.png" alt="House">
+                    <div>
+                        <h3 class="font-extrabold  text-xl">Commercial</h3>
+                        <p class="font-medium text-base  " >We mack the bast commercial burling in the city</p>
+                    </div>
+                </div>
+                <div class="flex flex-row gap-3 items-center bg-white rounded-2xl "
+                " style="width: 560;height: 136px; padding: 24px;">
+                    <img src="./images/residential.png" alt="House">
+                    <div>
+                        <h3 class="font-extrabold  text-xl" >Residential</h3>
+                        <p class="font-medium text-base  " >We mack residential House for your pecefull liveing</p>
+                    </div>
+                </div>
             </div>
             <div>
+                <img src="./images/Rectangle.png" alt="image"  style="width: 573px;height: 560px;">
+            </div>
+        </div>
+        <!-- Our Works Process section -->
+        <div class="flex flex-col mt-24 items-center">
+            <div class="flex flex-col items-center mb-8  ">
+                <button style="width: 165.97px; height:38px ; padding:8px 16px 8px 16px  ; border-radius:24px ; background-color:white; font-size: 1rem; font-weight: 700px; "><i class="fa-solid fa-arrow-right"></i>How we works</button>
+                <h3 class="text-5xl font-bold mt-4 mb-6   ">Our Works Process</h3>
+                <p class="font-medium text-base" >We do our works very cencearly , We following all of the roll and regolation of goverment and we are certyfi by goverment</p>
+            </div>
+            <div class="flex flex-row gap-6 mb-24">
+                <div class="sec_3_div_id" style=" background-color:rgb(231, 193, 211) ;">
+                    <img src="./images/concept.png" alt="icon" >
+                    <h3 class="text-xl font-extrabold">Concept</h3>
+                    <p class="font-medium text-base">We have a bandels of idea foe constraction</p>
+                </div>
+                <div class="sec_3_div_id" style=" background-color:rgb(239, 218, 110) ;">
+                    <img src="./images/flow-chart.png" alt="icon" >
+                    <h3 class="text-xl font-extrabold">Design Process</h3>
+                    <p class="font-medium text-base">We have the bast designer of the contry</p>
+                </div>
+                <div class="sec_3_div_id" style=" background-color:rgb(164, 218, 195) ;">
+                    <img src="./images/vision.png" alt="icon" >
+                    <h3 class="text-xl font-extrabold">Supervision</h3>
+                    <p class="font-medium text-base">We Supervis oll of oue workers</p>
+                </div>
+                <div class="sec_3_div_id" style=" background-color: rgb(119, 170, 234);">
+                    <img src="./images/budget-planning.png" alt="icon" >
+                    <h3 class="text-xl font-extrabold">Budget Planning</h3>
+                    <p class="font-medium text-base">We have the grat dil for youS</p>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Our Latest Portfolio section -->
+    <section>
+
+    </section>
+<!-- Let s Discuss Next Project section -->
+    <section>
+
+    </section>
+<!-- footer section -->
+    <footer class="flex flex-col items-center gap-12 mt-24 pt-24  bg-slate-900">
+        <div>
+            <div class="flex flex-row items-center mb-8 gap-4 font-extrabold text-3xl " style="width: 167px; height: 44px; margin-left: 60px;">
+                <img src="./images/arrow-up-right-01.png" alt="arrow" class="items-center">
+                <h3 class="items-center text-white">Rinterio</h3>
+            </div>
+            <p class="text-white">All appertman free for 2025 , booking now</p>
+        </div>
+        <div class="flex flex-col gap-12 items-center pb-24">
+            <div class="flex flex-row gap-32 text-white">
                 <p>Home</p>
                 <p>Services</p>
                 <p>Portfolio</p>
                 <p>Blogs</p>
                 <p>Contact Us</p>
             </div>
-            <div>
-                <img src="./images/Frame 2.png" alt="icon">
-                <img src="./images/Frame 3.png" alt="icon">
-                <button>Book Consult <img src="./images/arrow-up-black.png" alt="arrow"></button>
-            </div>
-        </nav>
-        <!-- Baner section -->
-        <div>
-            <div>
-                <img src="./images/banner.png" alt="House">
-            </div>
-            <div>
-                <h2>A barn house of this design has a striking appearance</h2>
-                <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
-                <button>View Details <img src="./images/arrow-up-right-01.png" alt="arrow"></button>
-            </div>
+            <button class="btn_tooter">Book Consult <img src="./images/arrow-up-black.png" alt="arrow" class="ml-4"></button>
         </div>
-    </header>
-
-    <section>
-
-    </section>
-
-    <section>
-
-    </section>
-
-    <section>
-
-    </section>
-
-    <section>
-
-    </section>
-
-    <footer>
-
     </footer>
-
 </body>
 </html>
+
+
