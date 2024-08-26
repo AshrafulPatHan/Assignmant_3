@@ -36,7 +36,144 @@ border-radius: 1rem;
 
 /* Our Latest Portfolio section */
 
+.btn_our{
+width: 246px;
+height: 38px;
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 10;
+padding: 8px 16px 8px 16px;
+background-color: rgba(171, 239, 95, 0.2);
+border-radius: 24px;
+font-size: 16px;
+font-weight: 700px;
+}
+
+.out_btn_no{
+width: 163.02px;
+height: 32.01px;
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 10;
+padding: 0px;
+
+}
+
+
+.out_crd{
+padding: 24px;
+background-color: rgba(241, 238, 238, 0.938);
+border-radius: 16px;
+border: 1px solid rgba(228, 214, 214, 0.884);
+}
+
+/* chalang part */
+
+
+
+
+
+
 /* Let s Discuss Next Project section */
+
+.btn_sec_4{
+width: 164.97px;
+height: 36.04px;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 16px 8px 16px;
+background-color: rgba(171, 239, 95, 0.2);
+border-radius: 24px;
+font-size: 16px;
+font-weight: 800px;
+margin-left: 150px;
+
+
+}
+
+.sec_4_btn_l{
+width: 970px;
+height: 56px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10;
+padding: 12px 20px 12px 20px;
+background-color: rgb(171, 239, 95);
+border-radius: 32px;
+font-size: 20px;
+font-weight: 800;
+
+}
+
+
+#sec_4_ol_id_2{
+width: 473px;
+height: 64.03px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 10;
+padding: 21px 20px 21px 20px;
+border-radius: 64px;
+}
+
+#sec_4_ol_id_3{
+    width: 473px;
+height: 64.03px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 10;
+padding: 21px 20px 21px 20px;
+border-radius: 64px;
+}
+
+#sec_4_ol_id_4{
+    width: 473px;
+height: 64.03px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 10;
+padding: 21px 20px 21px 20px;
+border-radius: 64px;
+}
+
+#sec_4_ol_id_5{
+    width: 473px;
+height: 64.03px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 10;
+padding: 21px 20px 21px 20px;
+border-radius: 64px;
+}
+
+
+#sec_4_ol_id{
+width: 970px;
+height: 240px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 10;
+padding: 21px 20px 21px 20px;
+border-radius: 32px;
+
+}
+
+
 
 /* footer section */
 .btn_tooter{
